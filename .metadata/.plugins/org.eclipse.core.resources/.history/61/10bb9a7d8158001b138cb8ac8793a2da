@@ -1,0 +1,15 @@
+package com.hibernate;
+
+import java.util.Date;
+
+public class Address
+{
+	private int addressId;
+	private String street;
+	private String city;
+	private String isOpen;
+	private String x;
+	private Date addedDate;
+	private byte[] image;
+
+}

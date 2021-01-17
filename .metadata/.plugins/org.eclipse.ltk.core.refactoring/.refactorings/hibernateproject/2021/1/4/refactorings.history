@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;pic.jpg&apos; to &apos;hibernateproject/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;hibernateproject&apos;&#x0D;&#x0A;- Destination element: &apos;hibernateproject/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;pic.jpg&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/java" element1="src/main/java/com/hibernate/pic.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1610863284543" units="0" version="1.0"/>
+</session>
