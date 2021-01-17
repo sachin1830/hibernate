@@ -14,17 +14,17 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
+    	
         System.out.println( "Hello World!" );
         
-        
-        //we can write this way also 
-        
+          //we can write this way also 
+//        
 //         Configuration cg=new Configuration();
 //         
 //         cg.configure();
 //         
-//         SessionFactory fact=cg.buildSessionFactory();
-        
+//         SessionFactory factory=cg.buildSessionFactory();
+//        
         SessionFactory factory=new Configuration().configure().buildSessionFactory();
         
         //here we are creating the object of student
@@ -60,5 +60,6 @@ public class App
         tx.commit();
         
         session.close();
+        factory.close();
     }
 }
