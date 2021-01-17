@@ -661,3 +661,84 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-01-17 15:53:48.596
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-01-17 16:24:30.743
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N20200806-034026.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:42:59.041
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UGolXHBs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:42:59.080
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UGolXHBs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:42:59.092
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:42:59.105
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UGolXHBs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:21.525
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:21.550
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3e09aa33[org.springframework.tooling.boot.ls:1.15.0.202003180840(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:21.563
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.229
+!MESSAGE Boot LS startup time from start to initialized: 3649ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.270
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZqlXxtJSisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.285
+!MESSAGE Sorting projects...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.297
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.313
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.326
+!MESSAGE Sorting projects... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.336
+!MESSAGE inside synchronized Subscriptions
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.346
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZqlXxtJS isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.356
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.363
+!MESSAGE subsribers = {sts4.classpath.ZqlXxtJS=Send Classpath Notifications(2142)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.370
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.378
+!MESSAGE Preparing classpath changed notification hibernateproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.384
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.391
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.398
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZqlXxtJS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.405
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.414
+!MESSAGE buffering callback sts4.classpath.ZqlXxtJS hibernateproject false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.421
+!MESSAGE executing callback sts4.classpath.ZqlXxtJS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 16:43:25.448
+!MESSAGE executing callback sts4.classpath.ZqlXxtJS SUCCESS [done]

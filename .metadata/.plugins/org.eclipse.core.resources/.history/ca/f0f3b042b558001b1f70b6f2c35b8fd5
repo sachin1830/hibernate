@@ -1,0 +1,13 @@
+package com.map;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Question 
+{
+	private int questionId;
+	
+	private String question;
+	
+	private Answer answer;
+}

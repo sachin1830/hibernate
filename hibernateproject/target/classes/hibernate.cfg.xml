@@ -17,5 +17,7 @@
 		
 		<mapping class="com.hibernate.Student"/>
 		<mapping class="com.hibernate.Address"/>
+		<mapping class="com.map.Question"/>
+		<mapping class="com.map.Answer"/>
 	</session-factory>
 </hibernate-configuration>
