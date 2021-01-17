@@ -580,3 +580,84 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:33:49.100
 !MESSAGE executing callback sts4.classpath.KuQIKTru SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:39.051
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KuQIKTru
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:39.143
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KuQIKTru
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:39.156
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:39.171
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KuQIKTru => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:43.113
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:43.134
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3e09aa33[org.springframework.tooling.boot.ls:1.15.0.202003180840(id=1006)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:43.150
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.139
+!MESSAGE Boot LS startup time from start to initialized: 2972ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.190
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UGolXHBsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.207
+!MESSAGE Sorting projects...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.224
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.239
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.251
+!MESSAGE Sorting projects... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.262
+!MESSAGE inside synchronized Subscriptions
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.271
+!MESSAGE subscribing to classpath changes: sts4.classpath.UGolXHBs isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.279
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.286
+!MESSAGE subsribers = {sts4.classpath.UGolXHBs=Send Classpath Notifications(840)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.292
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.299
+!MESSAGE Preparing classpath changed notification hibernateproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.306
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.312
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.319
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UGolXHBs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.325
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.333
+!MESSAGE buffering callback sts4.classpath.UGolXHBs hibernateproject false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.340
+!MESSAGE executing callback sts4.classpath.UGolXHBs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-17 15:53:46.365
+!MESSAGE executing callback sts4.classpath.UGolXHBs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-01-17 15:53:48.596
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

@@ -11,7 +11,14 @@ public class Student
 	private String name;
 	private String address;
 	
+	private Certificate certificate;
 	
+	public Certificate getCertificate() {
+		return certificate;
+	}
+	public void setCertificate(Certificate certificate) {
+		this.certificate = certificate;
+	}
 	public int getId() {
 		return id;
 	}
