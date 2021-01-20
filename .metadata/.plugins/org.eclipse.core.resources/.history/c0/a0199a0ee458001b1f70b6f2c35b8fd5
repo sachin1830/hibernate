@@ -1,0 +1,29 @@
+package com.mapmm;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class EmpProjectMain {
+
+	public static void main(String[] args) 
+	{
+		
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		Session session =factory.openSession();
+		
+		Project pro1=new Project();
+		Project pro2=new Project();
+		
+		Employee emp1=new Employee();
+		Employee emp2=new Employee();
+		
+		
+		
+		session.close();
+		factory.close();
+	}
+
+}

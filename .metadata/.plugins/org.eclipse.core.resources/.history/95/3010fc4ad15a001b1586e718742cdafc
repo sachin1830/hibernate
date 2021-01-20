@@ -1,0 +1,30 @@
+package com.hibernate;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernetObjState {
+
+	public static void main(String[] args) 
+	{
+		
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		//creating student object
+		
+		Student std=new Student();
+		std.setId(100);
+		std.setName("Peter Parker");
+		
+		std.setAddress("USA");
+		std.setCertificate(new Certificate("Spring FW"));
+		
+		factory.close();
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.mapmm;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Employee 
+{
+	@Id
+	@Column(name = "emp_id")
+	private int empId;
+	@Column(name = "emp_name")
+	private String empName;
+	
+	private List<Project> projectsl
+}

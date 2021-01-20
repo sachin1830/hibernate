@@ -1,0 +1,30 @@
+package com.hql;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HqlExamp {
+
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		String query="from Student";
+		
+		Session session =factory.openSession();
+		
+		Query q= session.createQuery(query);	
+		
+		List<Student> list=q.list();
+		
+		factory.close();
+		
+	}
+
+}

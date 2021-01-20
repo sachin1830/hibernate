@@ -1,0 +1,10 @@
+package com.mapmm;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Project 
+{
+	private int proId;
+	private String proName;
+}

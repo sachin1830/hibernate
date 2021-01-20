@@ -1,0 +1,41 @@
+package com.hql;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate.Student;
+
+public class HqlExamp {
+
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		Session session =factory.openSession();
+		
+		
+		//HQL syntax
+		String query="from Student where address=:USA";
+		
+		Query q= session.createQuery(query);	
+		
+		//here we are returning list of data 
+		
+		List<Student> list=q.list();
+		
+		for(Student s:list)
+		{
+			System.out.println(s.getName());
+		}
+		
+		factory.close();
+		
+	}
+
+}

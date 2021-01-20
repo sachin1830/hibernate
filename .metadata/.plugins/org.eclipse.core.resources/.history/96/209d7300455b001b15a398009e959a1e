@@ -1,0 +1,18 @@
+package com.hql;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HqlExamp {
+
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		SessionFactory factory=cfg.buildSessionFactory();
+		
+		factory.close();
+		
+	}
+
+}

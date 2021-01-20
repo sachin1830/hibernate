@@ -1,0 +1,7 @@
+package com.mapmm;
+
+public class Employee 
+{
+	private int empId;
+	private String empName;
+}

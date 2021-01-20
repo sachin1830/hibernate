@@ -1,0 +1,21 @@
+package com.mapmm;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Project 
+{
+	@Id
+	@Column(name = "pro_id")
+	private int proId;
+	@Column(name = "pro_name")
+	private String proName;
+	
+	@ManyToMany
+	private List<Employee> employees;
+}
