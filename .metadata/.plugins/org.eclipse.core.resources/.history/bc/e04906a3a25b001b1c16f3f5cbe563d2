@@ -1,0 +1,12 @@
+package com.hqlpagnation;
+
+import org.hibernate.cfg.Configuration;
+
+public class HqlPagenationExmpl
+{
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration
+	}
+
+}

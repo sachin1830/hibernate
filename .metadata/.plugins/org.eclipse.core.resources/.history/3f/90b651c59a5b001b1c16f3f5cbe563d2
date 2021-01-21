@@ -1,0 +1,38 @@
+package com.hibernate;
+
+import java.util.Scanner;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class DynamicStudentData
+{
+	public static void main(String[] args) 
+	{
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		
+		SessionFactory factory=cfg.buildSessionFactory();
+		int i=0;
+		Scanner sc=new Scanner(System.in);
+		while(i==1)
+		{
+			System.out.println("Do you want to enter data press 1");
+			
+			 i=sc.nextInt();
+			 
+			 System.out.println("Enter id");
+			 
+			 int id=sc.nextInt();
+			 
+			 System.out.println("enter name");
+			 
+			 String name=sc.next()
+					 
+			
+			
+		}
+		
+	}
+
+}

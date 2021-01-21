@@ -1,0 +1,9 @@
+package com.hibernate;
+
+public class DynamicStudentData {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

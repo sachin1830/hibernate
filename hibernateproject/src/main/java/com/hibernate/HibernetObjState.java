@@ -20,11 +20,11 @@ public class HibernetObjState {
 		//this is present in the transient state
 		
 		Student std=new Student();
-		std.setId(101);
-		std.setName("Peter Parker");
+		std.setId(1122);
+		std.setName("Henry kilton");
 		
 		std.setAddress("USA");
-		std.setCertificate(new Certificate("Spring FW","3mounth"));
+		std.setCertificate(new Certificate("python","3mounth"));
 		
 		Session session=factory.openSession();
 		
@@ -33,7 +33,7 @@ public class HibernetObjState {
 		//now the student object present in the persistent state
 		session.save(std);
 		
-		std.setAddress("Germanny");
+		//std.setAddress("Germanny");
 		
 		tx.commit();
 		factory.close();
